@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+install -Dm755 kiss-java "$1/usr/bin/kiss-java"
