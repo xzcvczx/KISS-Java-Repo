@@ -1,5 +1,5 @@
 #!/bin/sh -e
 
 if [ "`kiss-java g`" == "The default Java environment is unset." ]; then
-    kiss-java s openjdk-13
+    kiss-java s openjdk-13-bin
 fi
