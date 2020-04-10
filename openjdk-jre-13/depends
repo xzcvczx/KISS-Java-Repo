@@ -4,6 +4,7 @@ libxcb
 libX11
 libXau
 libXext
+libXtst
 libXi
 libXrender
 zlib
