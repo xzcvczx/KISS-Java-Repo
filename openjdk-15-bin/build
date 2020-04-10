@@ -1,4 +1,4 @@
 #!/bin/sh -e
 
 mkdir -p "$1/usr/java"
-cp -r openjdk-15 "$1/usr/java/"
+cp -r openjdk-15-bin "$1/usr/java/"
