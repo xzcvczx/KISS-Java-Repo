@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+if [ "`kiss-java g g`" == "The default environment is unset." ]; then
+    kiss-java s g gradle-bin
+fi
+
+if [ "`kiss-java l j`" == "" ]; then
+    echo -e "\033[1mWarning: Gradle will not work without a Java environment." \
+            1>&2
+    echo -e "         Please install openjdk-8-bin, an equivalent, or newer." \
+            "\033[0m" 1>&2
+fi

@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+version=6.3
+
+unzip gradle-$version-bin.zip
+
+mkdir -p "$1/usr/gradle/gradle-bin"
+mv gradle-$version/* "$1/usr/gradle/gradle-bin/"
