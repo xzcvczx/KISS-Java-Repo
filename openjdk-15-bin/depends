@@ -1,10 +1,10 @@
 alsa-lib
 kiss-java
-libxcb
 libX11
 libXau
 libXext
-libXtst
 libXi
 libXrender
+libXtst
+libxcb
 zlib
