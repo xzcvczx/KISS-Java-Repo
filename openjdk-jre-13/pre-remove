@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+if [ "`kiss-java g`" == "openjdk-jre-13" ]; then
+    kiss-java u
+    echo "The default Java environment has been unset."
+fi
