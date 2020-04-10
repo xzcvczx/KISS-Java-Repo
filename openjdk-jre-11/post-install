@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+if [ "`kiss-java g`" == "The default Java environment is unset." ]; then
+    kiss-java s openjdk-jre-11
+fi
