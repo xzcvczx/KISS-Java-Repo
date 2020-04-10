@@ -1,5 +1,3 @@
 #!/bin/sh -e
 
-if [ -z /etc/profile.d/kiss_java.sh ]; then
-    kiss-java f
-fi
+kiss-java c

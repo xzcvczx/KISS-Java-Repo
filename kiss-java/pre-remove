@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+if [ -e /etc/profile.d/kiss_java.sh ]; then
+    rm /etc/profile.d/kiss_java.sh
+fi

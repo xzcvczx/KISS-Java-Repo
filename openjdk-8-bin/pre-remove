@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-if [ "`kiss-java g`" == "openjdk-8-bin" ]; then
-    kiss-java u
+if [ "`kiss-java g j`" == "openjdk-8-bin" ]; then
+    kiss-java u j
     echo "The default Java environment has been unset."
 fi
